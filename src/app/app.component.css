@@ -1,0 +1,10 @@
+:host {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+/* This is incorrect, we cant select like this, we need to use host to select the app-root selector */
+/* app-root {
+    display: flex;
+} */
